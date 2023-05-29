@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="#" class="logo">Tjong Partners</a>
+
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="job.html">Jobs</a></li>
+       
+        <li><a href="login.html">Login</a></li>
+      </ul>
+
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+    <br>
+    <br><br><br>
+
+
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                
+                <form action="#">
+                    <label>Title</label>
+                    <input required type="text" spellcheck="true">
+                    <label>Type</label>
+                    <input required type="text" spellcheck="true">
+                    <label>Duration</label>
+                    <select name="duration" id="duration" required>
+                            <option value="day">~1 day</option>
+                            <option value="week">~1 week</option>
+                            <option value="1month">~1 month</option>
+                            <option value="6month">~6 months</option>
+                            <option value="year">~1 year</option>
+                    </select>
+                    <label>Location (zipcode)</label><br>
+                    <input style='width: 100%;'required type="number" min="10000" max="99999"><br>
+                    <label>Salary</label><br>
+                    <input required type="number" style="width:100%;"><br>
+                    <label>Description</label>
+                    <textarea required spellcheck="true" minlength="50" maxlength="2000" style="width: 100%;"></textarea>
+                    <button type="submit"><b>Post</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+    <footer>
+        <section class="containers">
+          <div class="links">
+            <h3 style="font-size: 20px;">links</h3>
+            <a style='color: white;' href="index.html">Home</a><br>
+            <a style='color: white;' href="job.html">Jobs</a><br>
+            <a style='color: white;' href="contact.html">Contact</a><br>
+            <a style='color: white;' href="login.html">Login</a><br>
+          </div>
+          <div class="contact">
+            <h3 style="font-size: 20px;">contact</h3>
+            <p>info@tjongpartners.com</p>
+          </div>
+        </section>
+        <section class="copyright">Copyright &copy; Tjong Partners 2023</section>
+        </footer>
+  </body>
+</html>
+  
